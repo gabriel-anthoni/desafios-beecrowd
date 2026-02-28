@@ -1,13 +1,19 @@
 # beecrowd | 1008 | Salário
-
-# Entrada: Leia 2 valores inteiros, nos quais o primeiro representa o número do
-#          funcionário e o outro a quantidade de horas trabalhadas, e 1 valor de
-#          ponto flutuante que representa o ganho por hora trabalhada.
-# Lógica:  Multiplique o ganho por hora trabalhada pela quantidade de horas
-#          trabalhadas.
-# Saída:   Imprima o número do funcionário, precedido do texto: "NUMBER = ", e o
-#          resultado do cálculo de horas trabalhadas com 2 casas decimais, precedido do texto:
-#          "SALARY = U$ ".
+#
+# Entrada:
+#   - Leia três valores separados por espaço:
+#       1. Número do funcionário (inteiro)
+#       2. Quantidade de horas trabalhadas (inteiro)
+#       3. Valor ganho por hora (ponto flutuante)
+#
+# Lógica:
+#   - Calcule o salário multiplicando a quantidade de horas pelo valor ganho por hora.
+#
+# Saída:
+#   - Imprima duas linhas:
+#       1. "NUMBER = {numero_do_funcionario}"
+#       2. "SALARY = U$ {salario:.2f}"
+#   - O salário deve ser formatado com 2 casas decimais.
 
 # Código:
 number      = int(input())

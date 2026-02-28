@@ -1,11 +1,21 @@
 # beecrowd | 1021 | Notas e Moedas
-
-# Entrada: Leia um número de ponto flutuante.
-# Lógica:  Divida o valor para saber com quantas e quais notas/moedas são necessárias para formar
-#          esse valor (o código pode apresentar erro nos cálculos das moedas de 0.01).
-# Saída:   Imprima o valor lido e, para cada nota e moeda, imprima quantas são necessárias
-#          para compor esse valor, seguido do texto: "nota(s) de R$ {valor:.2f}" para notas
-#          e "moeda(s) de R$ {valor:.2f}" para moedas.
+#
+# Entrada:
+#   - Leia um número de ponto flutuante representando um valor monetário.
+#
+# Lógica:
+#   - Determine quantas notas e moedas de cada valor são necessárias para formar esse valor.
+#   - Comece pelas notas de maior valor até as menores.
+#   - Depois, faça o mesmo para as moedas.
+#   - OBS: Cuidado com erros de precisão ao lidar com moedas de R$ 0,01 devido ao ponto flutuante.
+#
+# Saída:
+#   - Imprima o valor lido no formato: "R$ {valor:.2f}".
+#   - Em seguida, para cada nota, imprima:
+#         "{quantidade} nota(s) de R$ {valor:.2f}"
+#   - E para cada moeda, imprima:
+#         "{quantidade} moeda(s) de R$ {valor:.2f}"
+#   - A saída deve listar todas as notas e moedas necessárias para compor o valor.
 
 # Código:
 money  = float(input())

@@ -1,9 +1,14 @@
 # beecrowd | 1013 | O Maior
-
-# Entrada: Leia 1 string.
-# Lógica:  Separe a string por espaços para obter 3 números (A, B e C) e analise
-#          qual dos 3 números é o maior.
-# Saída:   Imprima o maior número com o texto à frente: " eh o maior".
+#
+# Entrada:
+#   - Leia uma linha contendo três números inteiros separados por espaços: A, B e C.
+#
+# Lógica:
+#   - Separe a linha por espaços para obter os três números.
+#   - Determine qual dos três números é o maior.
+#
+# Saída:
+#   - Imprima o maior número seguido do texto " eh o maior".
 
 # Código:
 numbers = input().split()

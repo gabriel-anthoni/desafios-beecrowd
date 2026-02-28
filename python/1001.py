@@ -1,8 +1,14 @@
 # beecrowd | 1001 | Extremamente Básico
-
-# Entrada: Leia 2 valores inteiros.
-# Lógica:  Faça a soma dos 2 valores inteiros fornecidos na entrada.
-# Saída:   Imprima a soma dos valores, precedida do texto: "X = ".
+#
+# Entrada:
+#   - Leia uma linha contendo dois valores inteiros separados por espaço: A e B.
+#
+# Lógica:
+#   - Calcule a soma dos dois valores:
+#         X = A + B
+#
+# Saída:
+#   - Imprima o resultado precedido do texto "X = ".
 
 # Código:
 a = int(input())

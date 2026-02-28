@@ -1,13 +1,20 @@
 # beecrowd | 1020 | Idade em Dias
-
-# Entrada: Leia um número inteiro que represente os dias totais.
-# Lógica:  Realize cálculos para obter os anos, meses e dias exatos
-#          (considerando que cada mês dure 30 dias):
-#          - Anos:  DiasTotais // 365
-#          - Meses: (DiasTotais % 365) // 30
-#          - Dias:  (DiasTotais % 365) % 30
-# Saída:   Imprima cada cálculo na ordem: anos, meses e dias, separando cada um por uma quebra de linha.
-#          Coloque os textos: "ano(s)", "mes(es)" e "dia(s)" na frente de cada resultado correspondente.
+#
+# Entrada:
+#   - Leia um número inteiro representando a quantidade total de dias.
+#
+# Lógica:
+#   - Calcule a quantidade de anos, meses e dias correspondentes, considerando:
+#       - 1 ano = 365 dias
+#       - 1 mês = 30 dias
+#   - Fórmulas:
+#       - Anos:  anos  = DiasTotais // 365
+#       - Meses: meses = (DiasTotais % 365) // 30
+#       - Dias:  dias  = (DiasTotais % 365) % 30
+#
+# Saída:
+#   - Imprima cada resultado em uma linha, na ordem: anos, meses e dias.
+#   - Acrescente os textos correspondentes: "ano(s)", "mes(es)" e "dia(s)".
 
 # Código:
 totalDays = int(input())

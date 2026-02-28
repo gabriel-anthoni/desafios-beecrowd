@@ -1,9 +1,14 @@
 # beecrowd | 1007 | Diferença
-
-# Entrada: Leia 4 valores (A, B, C e D) inteiros.
-# Lógica:  Calcule a diferença do produto de A e B pelo produto de C e D usando o
-#          cálculo: (A * B - C * D).
-# Saída:   Imprima o resultado do cálculo, precedido do texto: "DIFERENCA = ".
+#
+# Entrada:
+#   - Leia uma linha contendo quatro números inteiros separados por espaço: A, B, C e D.
+#
+# Lógica:
+#   - Calcule a diferença entre o produto de A e B e o produto de C e D:
+#         diferenca = (A * B) - (C * D)
+#
+# Saída:
+#   - Imprima o resultado do cálculo precedido do texto "DIFERENCA = ".
 
 # Código:
 a = int(input())

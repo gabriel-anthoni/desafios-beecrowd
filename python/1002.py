@@ -1,10 +1,15 @@
 # beecrowd | 1002 | Área do Círculo
-
-# Entrada: Leia 1 valor de ponto flutuante que representa o raio.
-# Lógica:  Calcule a área do círculo usando pi (valor: 3.14159),
-#          multiplicado pelo valor do raio (fornecido na entrada) ao quadrado.
-# Saída:   Imprima o resultado do cálculo da área do círculo com 4 casas decimais,
-#          precedido do texto: "A=".
+#
+# Entrada:
+#   - Leia um valor de ponto flutuante representando o raio do círculo.
+#
+# Lógica:
+#   - Calcule a área do círculo usando a fórmula:
+#         área = π * R²
+#   - Considere π = 3.14159
+#
+# Saída:
+#   - Imprima o resultado da área com 4 casas decimais, precedido do texto "A=".
 
 # Código:
 raio = float(input())

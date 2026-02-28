@@ -1,8 +1,13 @@
 # beecrowd | 1000 | Hello World!
-
-# Entrada: Nenhuma.
-# Lógica:  Apenas imprima a mensagem "Hello World!" no terminal.
-# Saída:   Imprima a mensagem "Hello World!" no terminal.
+#
+# Entrada:
+#   - Nenhuma entrada.
+#
+# Lógica:
+#   - Apenas exiba a mensagem "Hello World!" no terminal.
+#
+# Saída:
+#   - Imprima exatamente a mensagem "Hello World!".
 
 # Código:
 print("Hello World!")

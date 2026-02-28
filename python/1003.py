@@ -1,8 +1,14 @@
 # beecrowd | 1003 | Soma Simples
-
-# Entrada: Leia 2 valores inteiros.
-# Lógica:  Faça a soma dos 2 valores inteiros fornecidos na entrada.
-# Saída:   Imprima a soma dos valores, precedida do texto: "SOMA = ".
+#
+# Entrada:
+#   - Leia uma linha contendo dois valores inteiros separados por espaço: A e B.
+#
+# Lógica:
+#   - Calcule a soma dos dois valores:
+#         SOMA = A + B
+#
+# Saída:
+#   - Imprima o resultado precedido do texto "SOMA = ".
 
 # Código:
 a = int(input())

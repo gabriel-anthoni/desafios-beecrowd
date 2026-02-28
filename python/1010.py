@@ -1,12 +1,19 @@
 # beecrowd | 1010 | Salário com Bônus
-
-# Entrada: Leia 2 strings (A e B).
-# Lógica:  Separar cada string por espaço para formar 2 números inteiros e 1 número
-#          de ponto flutuante, sendo o primeiro o número do produto, a quantidade
-#          de produtos e o valor unitário do produto. Depois, basta multiplicar a
-#          quantidade de produtos pelo valor unitário (tanto em A como em B) e somar
-#          o valor total dos dois.
-# Saída:   Imprima o valor total do cálculo, precedido do texto: "VALOR A PAGAR: R$ ".
+#
+# Entrada:
+#   - Leia duas linhas, cada uma representando um produto:
+#       1. Cada linha contém três valores separados por espaço:
+#          - Código do produto (inteiro)
+#          - Quantidade do produto (inteiro)
+#          - Valor unitário do produto (ponto flutuante)
+#
+# Lógica:
+#   - Para cada produto, multiplique a quantidade pelo valor unitário.
+#   - Some o valor total dos dois produtos para obter o valor final a pagar.
+#
+# Saída:
+#   - Imprima o valor total, precedido do texto "VALOR A PAGAR: R$ ".
+#   - Formate o valor com duas casas decimais.
 
 # Código:
 a = input().split()

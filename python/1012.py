@@ -1,16 +1,21 @@
 # beecrowd | 1012 | Área
-
-# Entrada: Leia 1 string.
-# Lógica:  Separe a string por espaço para formar 3 números (A, B e C) de ponto flutuante para
-#          realizar os cálculos pedidos.
-#          Triângulo: (base(A) × altura(C)) / 2
-#          Círculo:   pi (3.14159) × raio(C)²
-#          Trapézio:  ((Base1(A) + Base2(B)) × altura(C)) / 2
-#          Quadrado:  lado(B)²
-#          Retângulo: lado1(A) × lado2(B)
-# Saída:   Imprima o valor de todos os cálculos com 3 casas decimais, precedido do texto
-#          que indica de qual é a área calculada (em maiúsculo e sem caracteres especiais).
-#          Exemplo: Triângulo vira "TRIANGULO = ".
+#
+# Entrada:
+#   - Leia uma linha contendo três números de ponto flutuante separados por espaço: A, B e C.
+#
+# Lógica:
+#   - Separe a linha por espaços para obter os valores de A, B e C.
+#   - Calcule as áreas conforme as fórmulas:
+#       - Triângulo:   (A × C) / 2            → base = A, altura = C
+#       - Círculo:     π × C²                 → raio = C, use π = 3.14159
+#       - Trapézio:    ((A + B) × C) / 2      → base1 = A, base2 = B, altura = C
+#       - Quadrado:    B²                     → lado = B
+#       - Retângulo:   A × B                  → lados = A e B
+#
+# Saída:
+#   - Imprima cada resultado com 3 casas decimais.
+#   - Cada linha deve começar com o texto indicando a forma geométrica em **maiúsculas**, seguido de " = ".
+#       - Exemplo: TRIANGULO = {resultado}
 
 # Código:
 string = input().split()

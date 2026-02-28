@@ -1,9 +1,14 @@
 # beecrowd | 1004 | Produto Simples
-
-# Entrada: Leia 2 valores inteiros.
-# Lógica:  Faça a multiplicação dos 2 valores inteiros fornecidos na entrada.
-# Saída:   Imprima o resultado da multiplicação dos valores, precedido do texto:
-#          "PROD = ".
+#
+# Entrada:
+#   - Leia uma linha contendo dois valores inteiros separados por espaço: A e B.
+#
+# Lógica:
+#   - Calcule o produto dos dois valores:
+#         PROD = A * B
+#
+# Saída:
+#   - Imprima o resultado precedido do texto "PROD = ".
 
 # Código:
 a = int(input())

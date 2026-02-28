@@ -1,10 +1,17 @@
 # beecrowd | 1014 | Consumo
-
-# Entrada: Leia 1 número inteiro que representa a distância total
-#          percorrida (em km) e 1 número de ponto flutuante que representa
-#          o total de combustível gasto (em litros).
-# Lógica:  Divida a distância total pelo total de combustível gasto.
-# Saída:   Imprima o resultado da divisão com o texto à frente: " km/l".
+#
+# Entrada:
+#   - Leia dois valores:
+#       1. Um número inteiro representando a distância total percorrida em quilômetros.
+#       2. Um número de ponto flutuante representando o total de combustível gasto em litros.
+#
+# Lógica:
+#   - Calcule o consumo médio de combustível dividindo a distância total pelo total de litros gastos:
+#         consumo = distância / combustível
+#
+# Saída:
+#   - Imprima o resultado da divisão seguido do texto " km/l".
+#   - Formate o resultado com 3 casas decimais, conforme exigido pelo problema.
 
 # Código:
 totalDistance = int(input())
