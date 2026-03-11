@@ -4,11 +4,11 @@
   <a href="https://github.com/gabriel-anthoni/desafios-beecrowd"><img src="https://capsule-render.vercel.app/api?type=soft&height=40&color=6B2EA3&text=Desafios%20beecrowd&fontSize=25&fontAlignY=56&fontColor=FFFFFF"></a>
 </div>
 
-Este repositório reúne resoluções de problemas do <b>Beecrowd</b> implementadas em diversas linguagens de programação.
-O propósito é contribuir com o aprendizado e a prática de algoritmos e programação.
-Recomenda-se utilizar o conteúdo como ferramenta de estudo e compreensão, e não apenas como resposta pronta.
+Este repositório contém resoluções de problemas da plataforma **Beecrowd**, implementadas em diversas linguagens de programação. O objetivo principal é consolidar o aprendizado, aprimorar a lógica algorítmica e praticar conceitos fundamentais de desenvolvimento.
 
-<h3>Linguagens usadas:</h3>
+<hr>
+
+<h3>👨‍💻 Linguagens utilizadas:</h3>
 <div>
-  <a src="https://github.com/gabriel-anthoni/desafios-beecrowd/tree/main/python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="50"/></a>
+  <a src="https://github.com/gabriel-anthoni/desafios-beecrowd/tree/main/python"><img title="Resoluções em Python" src="https://skillicons.dev/icons?i=python" width="50"/></a>
 </div>
